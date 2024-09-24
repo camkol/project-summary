@@ -1,4 +1,5 @@
 import "./Box.css";
+
 function Box({ isActive, toggle }) {
   return (
     <div

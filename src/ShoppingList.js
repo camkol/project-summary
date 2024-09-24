@@ -1,4 +1,5 @@
 import ShoppingListItem from "./ShoppingListItem";
+
 function ShoppingList({ items }) {
   return (
     <ul>

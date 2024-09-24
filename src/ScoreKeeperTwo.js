@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 export default function ScoreKeeperTwo({ numPlayers = 3, target = 5 }) {
   const [scores, setScores] = useState(new Array(numPlayers).fill(0));
   //   const incrementScore = (idx) => {

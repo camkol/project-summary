@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 function ScoreKeeper() {
   const [scores, setScores] = useState({ p1Score: 0, p2Score: 0 });
   function increaseP1Score() {

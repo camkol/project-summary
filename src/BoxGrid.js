@@ -1,5 +1,6 @@
 import Box from "./Box";
 import { useState } from "react";
+
 function BoxGrid() {
   const [boxes, setBoxes] = useState([
     false,

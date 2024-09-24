@@ -1,5 +1,6 @@
 import DieTwo from "./DieTwo";
 import "./Dice.css";
+
 function Dice({ dice, color }) {
   return (
     <section className="Dice">

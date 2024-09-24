@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 function BetterSignupForm() {
   const [formData, setFormData] = useState({
     firstName: "",

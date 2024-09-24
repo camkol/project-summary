@@ -2,6 +2,7 @@ import { useState } from "react";
 import { getRolls } from "./utils";
 import Button from "./Button";
 import Dice from "./Dice";
+
 function LuckyN({ title = "Dice Game", numDice = 2, winCheck }) {
   const [dice, setDice] = useState(getRolls(numDice));
   const isWinner = winCheck(dice);

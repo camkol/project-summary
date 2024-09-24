@@ -2,6 +2,7 @@ import { useState } from "react";
 import { v4 as uuid } from "uuid";
 import ShoppingListForm from "./ShoppingListForm";
 import ValidatedShoppingListForm from "./ValidatedShoppingListForm";
+
 function ShoppingList2() {
   const [items, setItems] = useState([
     { id: uuid(), product: "Bananas", quantity: 8 },
